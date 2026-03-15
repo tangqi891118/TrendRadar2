@@ -1,6 +1,6 @@
 app:
   # 将下面的 URL 替换为您自己的 GitHub Pages 地址
-  base_url: "https://joyce677.github.io/TrendRadar"
+  base_url: "https://github.com/tangqi891118/TrendRadar2"
   version_check_url: "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version"
   show_version_update: true # 控制显示版本更新提示，改成 false 将不接受新版本提示
 
@@ -49,7 +49,7 @@ notification:
   # 如果你以 fork 的方式将本项目部署在 GitHub 上，请勿在此填写任何 webhooks，而是将 webhooks 填入 GitHub Secret
   # 不然轻则手机上收到奇怪的广告推送，重则存在一定的安全隐患
   webhooks:
-    feishu_url: "" # 飞书机器人的 webhook URL
+    feishu_url: "https://open.feishu.cn/open-apis/bot/v2/hook/16afce68-602e-46fb-ab94-a067e6ba4d06" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     telegram_bot_token: "" # Telegram Bot Token
